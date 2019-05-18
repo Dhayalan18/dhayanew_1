@@ -1,0 +1,11 @@
+number=int(input("Enter the number to be checked"))
+temp=number
+rev=0
+while number!=0:
+    rem=number%10
+    rev=rev*10+rem
+    number=number//10
+if rev==temp:
+    print("yes")
+else:
+    print("no")
