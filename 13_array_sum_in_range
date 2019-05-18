@@ -1,5 +1,5 @@
 N=int(input("Number of elements in an array: "))
-K=int(input("Nuber of numbers to be added: "))
+K=int(input("Number of numbers to be added: "))
 array=[]
 sum1=0
 for i in range(0,N):
