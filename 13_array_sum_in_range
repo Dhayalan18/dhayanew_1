@@ -1,0 +1,11 @@
+N=int(input("Number of elements in an array: "))
+K=int(input("Nuber of numbers to be added: "))
+array=[]
+sum1=0
+for i in range(0,N):
+    array.append(int(input()))
+for j in range(0,K):
+    sum1=sum1+array[j]
+print(sum1)
+    
+    
