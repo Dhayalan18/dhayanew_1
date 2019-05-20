@@ -1,0 +1,9 @@
+str1="malayalam"
+str2=""
+a=len(str1)-1
+for i in range(a,-1,-1):
+    str2=str2+str1[i]
+if(str1==str2):
+    print("PALINDROME")
+else:
+    print("NOT A PALINDROME")
