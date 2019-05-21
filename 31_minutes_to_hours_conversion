@@ -1,0 +1,8 @@
+minutes=int(input("Number of minutes: "))
+if minutes>=60:
+    hours=minutes//60
+    minutes=minutes%60
+    print(hours,minutes)
+else:
+    hours=0
+    print(hours,minutes)
