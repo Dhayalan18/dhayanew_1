@@ -1,0 +1,7 @@
+n=int(input("no of elements in an array"))
+arr=[]
+for i in range(0,n):
+    arr.append(int(input()))
+for j in range(0,n):
+    print("array elements with their index",arr[j],j)
+
