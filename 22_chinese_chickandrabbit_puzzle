@@ -1,11 +1,16 @@
-heads=150
-legs=400
-if(legs%2==0):
-    count=legs/2
-    rabbits=count-heads
-    hens=heads-rabbits
-else:
-    print("No solution")
-print(rabbits)
-print(hens)
+def solve(heads,legs):
+    error_msg="No solution"
+    if(heads<legs):
+        chicken_count=0
+        rabbit_count=0
+        rabbit_count=(legs-(2*heads))//2
+        chicken_count=heads-rabbit_count
+        a=(2*chicken_count)+(4*rabbit_count)
+        if(a==legs):
+            print(chicken_count,rabbit_count)
+        else:
+            print(error_msg)
+    else:
+        print(error_msg)
+solve(38,131)
 
